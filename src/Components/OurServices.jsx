@@ -12,7 +12,7 @@ export default function ConsultingServices() {
       description: 'Navigating the student visa application process can be complex, but we make it straightforward and stress-free.',
       content: (
         <div>
-          <p className="mb-4">Navigating the student visa application process can be complex, but at <span className='text-green-500 font-bold'>GlobalEd Pathway</span>, we make it straightforward and stress-free. Our dedicated visa guidance services are designed to support students with Singapore qualifications who aspire to pursue higher education in top global destinations, including Australia, United Kingdom, Canada, United States, New Zealand, Malaysia and Singapore. With our expert assistance, you can confidently secure the necessary visas to start your academic journey abroad or locally.</p>
+          <p className="mb-4">Navigating the student visa application process can be complex, but at <span className='text-green-500 font-bold'>Apex Education PathFinder</span>, we make it straightforward and stress-free. Our dedicated visa guidance services are designed to support students with Singapore qualifications who aspire to pursue higher education in top global destinations, including Australia, United Kingdom, Canada, United States, New Zealand, Malaysia and Singapore. With our expert assistance, you can confidently secure the necessary visas to start your academic journey abroad or locally.</p>
           
           <h3 className="text-lg font-semibold mb-2">Comprehensive Visa Support Tailored to Your Needs</h3>
           <p className="mb-4">Our experienced visa consultants provide personalized guidance to ensure your student visa application meets the specific requirements of your chosen study destination. We stay up-to-date with the latest immigration policies and procedures, offering accurate advice and practical solutions to streamline the process.</p>
@@ -55,8 +55,8 @@ export default function ConsultingServices() {
       description: 'Swift admission process for your chosen institute.',
       content: (
         <div>
-          <p className="mb-4">Swift admission process of your chosen institute. <span className='text-green-500 font-bold'>GlobalEd Pathway</span> is Singapore's leading source of information on opportunities for students to study . We will help you find the right course and university that is the best for you.</p>
-          <p className="mb-4">At <span className='text-green-500 font-bold'>GlobalEd Pathway</span> Admission Consulting service, we don't just guide; we empower you to present the strongest possible application for your educational pursuits. Let us be your partner in achieving academic success and unlocking the doors to a promising future.</p>
+          <p className="mb-4">Swift admission process of your chosen institute. <span className='text-green-500 font-bold'>Apex Education PathFinder</span> is Singapore's leading source of information on opportunities for students to study . We will help you find the right course and university that is the best for you.</p>
+          <p className="mb-4">At <span className='text-green-500 font-bold'>Apex Education PathFinder</span> Admission Consulting service, we don't just guide; we empower you to present the strongest possible application for your educational pursuits. Let us be your partner in achieving academic success and unlocking the doors to a promising future.</p>
         </div>
       )
     },
@@ -67,7 +67,7 @@ export default function ConsultingServices() {
       description: 'Comprehensive preparation before you leave.',
       content: (
         <div>
-          <p className="mb-4"><span className='text-green-500 font-bold'>GlobalEd Pathway</span> details its students with the visa procedure to be followed in the guides them in preparing the various documents required for obtaining a valid student visa. Sessions to provide an insight to the various facets of student life.</p>
+          <p className="mb-4"><span className='text-green-500 font-bold'>Apex Education PathFinder</span> details its students with the visa procedure to be followed in the guides them in preparing the various documents required for obtaining a valid student visa. Sessions to provide an insight to the various facets of student life.</p>
           <p className="mb-4">From handling intricate travel logistics to providing comprehensive orientation sessions, we go beyond the ordinary to prepare you for the adventure ahead. Let us take care of the details, including flight arrangements, transportation, and accommodation, so you can focus on the exciting experiences awaiting you.</p>
         </div>
       )
@@ -80,7 +80,7 @@ export default function ConsultingServices() {
       content: (
         <div>
           <p className="mb-4">We are constantly in touch with the Universities/Colleges to ensure that our students do not face any problems related to courses and accommodation. We provide 24/7 support when things would be unfamiliar.</p>
-          <p className="mb-4">At <span className='text-green-500 font-bold'>GlobalEd Pathway</span>, our commitment goes beyond the initial stages of your journey. We are here to support you post-arrival, ensuring you have the resources and assistance needed for a successful and enriching experience in your new academic and cultural environment. Welcome to a new chapter of growth and exploration!</p>
+          <p className="mb-4">At <span className='text-green-500 font-bold'>Apex Education PathFinder</span>, our commitment goes beyond the initial stages of your journey. We are here to support you post-arrival, ensuring you have the resources and assistance needed for a successful and enriching experience in your new academic and cultural environment. Welcome to a new chapter of growth and exploration!</p>
         </div>
       )
     }

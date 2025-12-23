@@ -100,7 +100,7 @@ export default function ContactPage() {
               </div>
               <div className="flex items-center gap-2">
                 <Mail size={18} className="text-green-600 flex-shrink-0" />
-                <p className="text-sm">Email.com</p>
+                <p className="text-sm"> singapore@apexeducation.sg</p>
               </div>
             </div>
           </div>

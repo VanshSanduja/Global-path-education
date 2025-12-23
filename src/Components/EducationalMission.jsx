@@ -1,6 +1,6 @@
 import React from 'react';
 import AboutImage from '../assets/Home-About Us-2.jpg';
-import AboutImage2 from "../assets/Home-Welcome-1-Copy.png";
+import AboutImage2 from "../assets/Chinese-girl.png";
 import { MapPin, Award, Clock, Globe, Sparkles } from 'lucide-react';
 
 function EducationalMission() {
@@ -86,7 +86,7 @@ function EducationalMission() {
           <div className="w-full lg:w-[40%] relative">
             <div className="rounded-3xl overflow-hidden shadow-2xl">
               <img
-                className="w-full h-[50vh] md:h-[80vh]"
+                className="w-full h-[65vh] md:h-[90vh]"
                 src={AboutImage2}
                 alt="Students preparing for university"
               />

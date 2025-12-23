@@ -18,10 +18,10 @@ function Footer() {
           </h2>
           <div className="text-sm space-y-4">
             <h1 className="text-lg underline">Call Us Now</h1>
-            <p>+65 -8341 4910</p>
-            <p>+65 -9004 7944</p>
-            <p>+65 -9644 2667</p>
-            <p>info@mysite.com</p>
+            <p className="text-lg">+65 -8341- 4910</p>
+            <p className="text-lg">+65 -9004-7944</p>
+            <p className="text-lg">+65 -9644-2667</p>
+            <p className="text-lg">singapore@apexeducation.sg</p>
             <h1 className="text-lg underline">Address Information</h1>
             <p>
               223 MOUNTBATTEN ROAD,
@@ -70,7 +70,7 @@ function Footer() {
       <hr className="bg-black w-full my-8" />
       <div className="justify-center text-center mt-8 text-lg">
         Copyright © 2025{" "}
-        <span className="font-extrabold">GlobalEd Pathway</span>. All rights
+        <span className="font-extrabold">Apex Education PathFinder</span>. All rights
         reserved.
       </div>
     </footer>

@@ -58,7 +58,7 @@ export default function HeroSection() {
               <p className="text-base md:text-lg mb-8 leading-relaxed text-gray-700">
                 At{" "}
                 <span className="font-extrabold text-green-500">
-                  GlobalEd Pathway
+                  Apex Education PathFinder
                 </span>
                 , we are dedicated to transforming the educational journeys of
                 students holding Singapore qualifications. Our mission is to
