@@ -14,25 +14,25 @@ import {
 function AcademicExcellence() {
   const journeySteps = [
     {
-      icon: <Compass className="text-red-700" size={24} />,
+      icon: <Compass className="text-red-500" size={24} />,
       title: "Assessment & Planning",
       description:
         "We evaluate your qualifications and create a personalized education roadmap.",
     },
     {
-      icon: <GraduationCap className="text-red-700" size={24} />,
+      icon: <GraduationCap className="text-red-500" size={24} />,
       title: "Program Matching",
       description:
         "We identify universities that maximize your credits and align with your career goals.",
     },
     {
-      icon: <Briefcase className="text-red-700" size={24} />,
+      icon: <Briefcase className="text-red-500" size={24} />,
       title: "Application Support",
       description:
         "From paperwork to interviews, we guide you through every step of the application process.",
     },
     {
-      icon: <Globe className="text-red-700" size={24} />,
+      icon: <Globe className="text-red-500" size={24} />,
       title: "Transition Assistance",
       description:
         "Pre-departure guidance and resources to ensure a smooth transition abroad.",
@@ -64,10 +64,10 @@ function AcademicExcellence() {
 
             <p className="text-base md:text-lg text-gray-700 leading-relaxed mb-8 max-w-2xl">
               Embarking on an international or local education journey is a
-              life-changing decision, and we’re here to make it rewarding and
+              life changing decision, and we’re here to make it rewarding and
               accessible. With{" "}
-              <span className="font-bold text-red-600">
-                Apex Education PathFinder
+              <span className="font-bold text-red-500">
+                Apex Education Pathfinder
               </span>
               , you gain a trusted partner committed to your success. Let us
               help you turn your Singapore qualifications into a gateway for
@@ -98,7 +98,7 @@ function AcademicExcellence() {
 
             {/* CTA Button */}
             <div className="mt-8">
-              <button className="bg-red-600 text-white px-8 py-3 rounded-xl font-medium hover:bg-red-700 transition duration-300 shadow-lg flex items-center group">
+              <button className="bg-red-500 text-white px-8 py-3 rounded-xl font-medium hover:bg-red-700 transition duration-300 shadow-lg flex items-center group">
                 Start Your Journey
                 <ChevronRight
                   size={20}
@@ -165,7 +165,7 @@ function AcademicExcellence() {
           </div>
 
           {/* Final CTA */}
-          <div className="bg-gradient-to-r from-red-600 to-red-800 rounded-2xl p-8 text-white text-center max-w-4xl mx-auto shadow-xl">
+          <div className="bg-red-500 rounded-2xl p-8 text-white text-center max-w-4xl mx-auto shadow-xl">
             <h3 className="text-2xl md:text-3xl font-bold mb-4">
               Ready to Take the Next Step?
             </h3>
@@ -175,11 +175,11 @@ function AcademicExcellence() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link to="/contact">
-                <button className="px-8 py-3 bg-white text-red-700 rounded-xl font-medium hover:bg-blue-50 transition duration-300">
+                <button className="px-8 py-3 bg-white cursor-pointer text-red-500 rounded-xl font-medium hover:bg-blue-50 transition duration-300">
                   Schedule Consultation
                 </button>
               </Link>
-              <button className="px-8 py-3 border-2 border-white text-white rounded-xl font-medium hover:bg-blue-950 transition duration-300">
+              <button className="px-8 py-3 border-2 cursor-pointer border-white text-white rounded-xl font-medium transition duration-300">
                 Learn More
               </button>
             </div>

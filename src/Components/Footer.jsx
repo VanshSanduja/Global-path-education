@@ -9,7 +9,7 @@ import {
 
 function Footer() {
   return (
-    <footer className="bg-[#e37b7b] text-blue-950 px-6 md:px-16 py-12">
+    <footer className="bg-red-500 text-white px-6 md:px-16 py-12">
       <div className="flex flex-col md:flex-row justify-between gap-10">
         {/* Logo and Contact Info */}
         <div className="flex flex-col gap-4">
@@ -70,7 +70,7 @@ function Footer() {
       <hr className="bg-black w-full my-8" />
       <div className="justify-center text-center mt-8 text-lg">
         Copyright © 2025{" "}
-        <span className="font-extrabold">Apex Education PathFinder</span>. All rights
+        <span className="font-extrabold">Apex Education Pathfinder</span>. All rights
         reserved.
       </div>
     </footer>

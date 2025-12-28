@@ -49,6 +49,7 @@ export default function HeroSection() {
                 <h3 className="text-red-600 font-semibold tracking-wider uppercase text-2xl">
                   Your Education Journey
                 </h3>
+                <div className="h-1 w-12 bg-red-600 ml-4"></div>
               </div>
 
               <h1 className="text-xl font-bold text-gray-900 mb-6 leading-tight">
@@ -58,7 +59,7 @@ export default function HeroSection() {
               <p className="text-base md:text-lg mb-8 leading-relaxed text-gray-700">
                 At{" "}
                 <span className="font-extrabold text-red-500">
-                  Apex Education PathFinder
+                  Apex Education Pathfinder
                 </span>
                 , we are dedicated to transforming the educational journeys of
                 students holding Singapore qualifications. Our mission is to
@@ -66,17 +67,17 @@ export default function HeroSection() {
                 destinations such as Australia, United Kingdom, Canada, United
                 States, New Zealand, Malaysia and with in Singapore itself.
                 Through our expert guidance and personalized support,{" "}
-                <span className="font-bold text-red-400">
+                <span className="font-bold">
                   we help you unlock global academic opportunities while
                   minimizing the time and cost of earning your degree or
                   diploma.
                 </span>
               </p>
 
-              <div className="mb-8 bg-blue-50 rounded-xl p-4 border-l-4 border-red-600">
+              <div className="mb-8 bg-blue-50 rounded-xl p-4 border-l-4 border-red-500">
                 <p className="font-medium text-gray-800">
                   We help minimize{" "}
-                  <span className="text-red-700 font-bold">
+                  <span className="text-red-500 font-bold">
                     time and expenses
                   </span>{" "}
                   while maximizing your academic potential abroad.
@@ -92,7 +93,7 @@ export default function HeroSection() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
           <div className="bg-white rounded-xl p-4 shadow-lg flex items-center gap-4 transform transition-transform duration-300 hover:scale-105">
             <div className="bg-blue-100 p-3 rounded-full">
-              <Globe className="text-red-600" size={24} />
+              <Globe className="text-red-500" size={24} />
             </div>
             <div>
               <h3 className="font-bold text-gray-900">Global Network</h3>
@@ -104,7 +105,7 @@ export default function HeroSection() {
 
           <div className="bg-white rounded-xl p-4 shadow-lg flex items-center gap-4 transform transition-transform duration-300 hover:scale-105">
             <div className="bg-blue-100 p-3 rounded-full">
-              <Award className="text-red-600" size={24} />
+              <Award className="text-red-500" size={24} />
             </div>
             <div>
               <h3 className="font-bold text-gray-900">Personalized Path</h3>
@@ -116,7 +117,7 @@ export default function HeroSection() {
 
           <div className="bg-white rounded-xl p-4 shadow-lg flex items-center gap-4 transform transition-transform duration-300 hover:scale-105">
             <div className="bg-blue-100 p-3 rounded-full">
-              <BookOpen className="text-red-600" size={24} />
+              <BookOpen className="text-red-500" size={24} />
             </div>
             <div>
               <h3 className="font-bold text-gray-900">Expert Guidance</h3>

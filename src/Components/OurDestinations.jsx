@@ -93,7 +93,7 @@ const DestinationsPage = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-red-500 to-emerald-600 text-white py-20 px-4">
+      <div className="bg-red-500 text-white py-20 px-4">
         <div className="max-w-6xl mx-auto text-center">
           <h1 className="text-5xl font-bold mb-6">
             Global Education Destinations
@@ -178,7 +178,7 @@ const DestinationsPage = () => {
         </div>
 
         {/* CTA Section */}
-        <div className="bg-gradient-to-r from-red-500 to-emerald-600 rounded-xl shadow-2xl p-12 text-center text-white">
+        <div className="bg-red-500 rounded-xl shadow-2xl p-12 text-center text-white">
           <h2 className="text-4xl font-bold mb-4">
             Ready to Start Your Global Education Journey?
           </h2>

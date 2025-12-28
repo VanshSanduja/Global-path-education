@@ -31,6 +31,7 @@ function EducationalMission() {
         <div className="mb-12 flex items-center justify-center">
           <div className="h-1 w-12 bg-red-600 mr-4"></div>
           <h3 className="text-red-600 font-semibold tracking-wider uppercase text-3xl">Our Mission</h3>
+          <div className="h-1 w-12 bg-red-600 ml-4"></div>
         </div>
         
         {/* First Part - Seamless Pathways to Study Destinations */}
@@ -61,7 +62,7 @@ function EducationalMission() {
             
             <div className="bg-white/70 backdrop-blur-sm rounded-xl p-6 shadow-lg mb-8">
               <p className="text-base font-bold md:text-lg text-gray-700 leading-relaxed">
-                We specialize in assisting students who have completed Singapore-based qualifications—such as diplomas, advanced diplomas, or other recognized credentials—and wish to advance their studies abroad or locally. Our team of experienced education consultants works closely with you to identify the best universities and programs that align with your academic background, career aspirations, and personal goals. Whether you dream of studying at a prestigious institution in Australia, United Kingdom, Canada, United States, New Zealand, Malaysia, or and even within Singapore, we make the transition smooth and stress-free.
+                We specialize in assisting students who have completed Singapore based qualifications such as diplomas, advanced diplomas, or other recognized credentials and wish to advance their studies abroad or locally. Our team of experienced education consultants works closely with you to identify the best universities and programs that align with your academic background, career aspirations, and personal goals. Whether you dream of studying at a prestigious institution in Australia, United Kingdom, Canada, United States, New Zealand, Malaysia or even within Singapore, we make the transition smooth and stress-free.
               </p>
             </div>
             
@@ -98,7 +99,7 @@ function EducationalMission() {
           <div className="w-full lg:w-[60%] px-4">
             <h2 className="text-xl font-semibold mb-4 text-gray-800 flex items-center">
               <span className="bg-blue-100 p-2 rounded-full mr-3">
-                <Award className="text-red-600" size={24} />
+                <Award className="text-red-500" size={24} />
               </span>
               Maximize Your Potential with RPL Credits
             </h2>
@@ -122,11 +123,11 @@ function EducationalMission() {
               ))}
             </div>
             
-            <div className="bg-gradient-to-br from-[#ffb0b0] to-white rounded-xl p-6 text-blue-950 shadow-lg">
+            <div className="bg-gradient-to-br from-[#ffb0b0] to-white rounded-xl p-6 text-gray-700 shadow-lg">
               <p className="font-bold text-xl">
                 We work hand in hand with various institutions in Singapore and universities worldwide to select the best programmes to meet your needs.
               </p>
-              <button className="mt-4 bg-white text-red-700 px-6 py-2 rounded-lg font-medium hover:bg-blue-50 transition duration-300">
+              <button className="mt-4 cursor-pointer bg-white text-red-500 px-6 py-2 rounded-lg font-bold hover:bg-blue-50 transition duration-300">
                 Request Consultation
               </button>
             </div>

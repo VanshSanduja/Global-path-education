@@ -30,7 +30,7 @@ export default function ContactPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <div className="bg-gradient-to-r from-red-500 to-emerald-600 text-white py-20">
+      <div className="bg-red-500 text-white py-20">
         <div id="contact-header" className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl md:text-5xl font-bold text-center mb-4">
             Contact us
@@ -95,11 +95,11 @@ export default function ContactPage() {
             <h3 className="text-xl font-bold text-gray-900 mb-4">Singapore Office:</h3>
             <div className="space-y-3 text-gray-600">
               <div className="flex items-start gap-2">
-                <MapPin size={18} className="text-red-600 mt-1 flex-shrink-0" />
+                <MapPin size={18} className="text-red-500 mt-1 flex-shrink-0" />
                 <p className="text-sm">223 MOUNTBATTEN ROAD, #03-16, 223, MOUNTBATTEN, SINGAPORE 398008</p>
               </div>
               <div className="flex items-center gap-2">
-                <Mail size={18} className="text-red-600 flex-shrink-0" />
+                <Mail size={18} className="text-red-500 flex-shrink-0" />
                 <p className="text-sm"> singapore@apexeducation.sg</p>
               </div>
             </div>
@@ -124,7 +124,7 @@ export default function ContactPage() {
           {/* Contact Form */}
           <div className="order-1 md:order-2 shadow-2xl shadow-gray-300 p-8 rounded-2xl">
             <div className="mb-6 text-center">
-              <p className="text-red-600 font-semibold mb-2">Any query?</p>
+              <p className="text-red-500 font-semibold mb-2">Any query?</p>
               <h2 className="text-3xl font-bold text-gray-900 mb-2">
                 Get in touch with us!
               </h2>
@@ -135,7 +135,7 @@ export default function ContactPage() {
 
             {submitted && (
               <div className="mb-6 p-4 bg-red-50 border border-red-200 rounded-lg">
-                <p className="text-red-800 font-medium">Thank you! Your message has been sent.</p>
+                <p className="text-red-500 font-medium">Thank you! Your message has been sent.</p>
               </div>
             )}
 
@@ -186,7 +186,7 @@ export default function ContactPage() {
 
               <button
                 onClick={handleSubmit}
-                className="bg-gradient-to-r from-red-500 to-emerald-600 text-white py-3 px-8 rounded-lg font-medium hover:from-red-600 hover:to-emerald-700 transition flex items-center gap-2"
+                className="bg-red-500 text-white py-3 px-8 rounded-lg font-medium hover:from-red-600 hover:to-emerald-700 transition flex items-center gap-2"
               >
                 <Send size={20} />
                 Send Message

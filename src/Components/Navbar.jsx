@@ -35,7 +35,7 @@ export default function Navbar() {
           <Link to="/destinations" className="hover:text-[#322a1f]">
             Destinations
           </Link>
-          <Link to="/contact" className="bg-white px-4 py-2 rounded-md cursor-pointer hover:bg-[#de6f6f] hover:text-white hover:shadow-md transition duration-300">
+          <Link to="/contact" className="bg-white px-4 py-2 rounded-md cursor-pointer hover:bg-red-500 hover:text-white hover:shadow-md transition duration-300">
             Contact Us
           </Link>
         </div>
