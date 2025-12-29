@@ -40,7 +40,8 @@ function Footer() {
         <div className="text-md flex flex-col gap-1">
           <a href="#">Company</a>
           <a href="#">Testimonials</a>
-          <Link to="/contact#contact-header">Contact Us</Link>
+          <Link to="/contact"
+          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>Contact Us</Link>
           <a href="#">FAQ</a>
         </div>
 

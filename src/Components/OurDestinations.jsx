@@ -113,9 +113,12 @@ const DestinationsPage = () => {
             Global University Pathways
           </h2>
           <p className="text-lg text-gray-600">
-            Through our collaboration with <span className="text-red-500">International Management and Sports
-            College in Singapore</span>, we will help students achieve their dreams of
-            progressing to universities around the world:
+            Through our collaboration with{" "}
+            <span className="text-red-500">
+              International Management and Sports College in Singapore
+            </span>
+            , we will help students achieve their dreams of progressing to
+            universities around the world:
           </p>
         </div>
 
@@ -187,7 +190,10 @@ const DestinationsPage = () => {
             for your educational goals and career aspirations.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link to="/contact/#contact-header">
+            <Link
+              to="/contact"
+              onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+            >
               <button className="bg-white text-red-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-300">
                 Schedule a Consultation
               </button>

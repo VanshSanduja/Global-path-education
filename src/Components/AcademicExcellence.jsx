@@ -63,14 +63,13 @@ function AcademicExcellence() {
             </h1>
 
             <p className="text-base md:text-lg text-gray-700 leading-relaxed mb-8 max-w-2xl">
-              Embarking on an international or local education journey is a
-              life changing decision, and we’re here to make it rewarding and
-              accessible. With{" "}
-                Apex Education Pathfinder
-              , you gain a trusted partner committed to your success. Let us
-              help you turn your Singapore qualifications into a gateway for
-              global opportunities, equipping you with the credentials and
-              confidence to thrive in today’s competitive world.
+              Embarking on an international or local education journey is a life
+              changing decision, and we’re here to make it rewarding and
+              accessible. With Apex Education Pathfinder , you gain a trusted
+              partner committed to your success. Let us help you turn your
+              Singapore qualifications into a gateway for global opportunities,
+              equipping you with the credentials and confidence to thrive in
+              today’s competitive world.
             </p>
 
             {/* Benefits */}
@@ -96,13 +95,16 @@ function AcademicExcellence() {
 
             {/* CTA Button */}
             <div className="mt-8">
-              <button className="bg-red-500 text-white px-8 py-3 rounded-xl font-medium hover:bg-red-700 transition duration-300 shadow-lg flex items-center group">
-                Start Your Journey
-                <ChevronRight
-                  size={20}
-                  className="ml-2 transform group-hover:translate-x-1 transition-transform"
-                />
-              </button>
+              <Link to="/contact"
+              onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
+                <button className="bg-red-500 text-white px-8 py-3 rounded-xl font-medium hover:bg-red-700 transition duration-300 shadow-lg flex items-center group">
+                  Start Your Journey
+                  <ChevronRight
+                    size={20}
+                    className="ml-2 transform group-hover:translate-x-1 transition-transform"
+                  />
+                </button>
+              </Link>
             </div>
           </div>
 
@@ -172,14 +174,20 @@ function AcademicExcellence() {
               future with a shorter, smarter path to higher education!
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link to="/contact">
+              <Link
+                to="/contact"
+                onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+              >
                 <button className="px-8 py-3 bg-white cursor-pointer text-red-500 rounded-xl font-medium hover:bg-blue-50 transition duration-300">
                   Schedule Consultation
                 </button>
               </Link>
-              <button className="px-8 py-3 border-2 cursor-pointer border-white text-white rounded-xl font-medium transition duration-300">
-                Learn More
-              </button>
+              <Link to="/services"
+              onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
+                <button className="px-8 py-3 border-2 cursor-pointer border-white text-white rounded-xl font-medium transition duration-300">
+                  Learn More
+                </button>
+              </Link>
             </div>
           </div>
         </div>

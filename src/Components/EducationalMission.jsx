@@ -87,7 +87,7 @@ function EducationalMission() {
           <div className="w-full lg:w-[40%] relative">
             <div className="rounded-3xl overflow-hidden shadow-2xl">
               <img
-                className="w-full h-[80vh] md:h-[90vh]"
+                className="w-full h-[63vh] md:h-[90vh]"
                 src={AboutImage2}
                 alt="Students preparing for university"
               />
