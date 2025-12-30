@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Mail, Phone, MapPin, Send } from "lucide-react";
+import emailjs from "@emailjs/browser";
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
@@ -17,15 +18,33 @@ export default function ContactPage() {
     });
   };
 
-  const handleSubmit = () => {
-    if (formData.name && formData.email && formData.phone && formData.message) {
-      setSubmitted(true);
-      setTimeout(() => {
-        setSubmitted(false);
-        setFormData({ name: "", email: "", phone: "", message: "" });
-      }, 3000);
-    }
-  };
+  const handleSubmit = async () => {
+  if (!formData.name || !formData.email || !formData.phone || !formData.message) {
+    return;
+  }
+
+  try {
+    await emailjs.send(
+      "service_sdgts09",
+      "template_yivd7e2",
+      {
+        name: formData.name,
+        email: formData.email,
+        phone: formData.phone,
+        message: formData.message,
+      },
+      "eEv03VVUhWbN7BqL6"
+    );
+
+    setSubmitted(true);
+    setFormData({ name: "", email: "", phone: "", message: "" });
+
+    setTimeout(() => setSubmitted(false), 3000);
+  } catch (error) {
+    console.error("Email send failed:", error);
+  }
+};
+
 
   return (
     <div className="min-h-screen bg-white">

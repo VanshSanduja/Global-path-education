@@ -28,7 +28,7 @@ export default function Navbar() {
         {/* Desktop menu */}
         <div className="hidden md:flex gap-12 text-lg items-center text-[#4b3f2f] font-sans">
           <Link
-            to="/Global-path-education"
+            to="/"
             onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
             className="hover:text-[#322a1f]"
           >
